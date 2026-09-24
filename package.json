@@ -1,0 +1,14 @@
+{
+  "name": "northstar-learning",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix frontend run dev\" \"npm --prefix backend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "client": "npm --prefix frontend run dev",
+    "server": "npm --prefix backend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "latest"
+  }
+}
