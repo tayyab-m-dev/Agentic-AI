@@ -48,7 +48,7 @@ The repository includes a Render deployment blueprint in `render.yaml` for the b
 - `JWT_SECRET` to a long, randomly generated value
 - `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD` and `DB_NAME`
 - `PORT` is provided by the hosting platform
-- `VITE_API_URL` is the public backend URL in Vercel
+- `VITE_API_BASE_URL` is the public backend URL in Vercel (defaults to `https://agentic-ai-production-f3b8.up.railway.app`)
 
 ### Launch checklist
 
