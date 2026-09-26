@@ -13,6 +13,7 @@ if (isProduction && !process.env.JWT_SECRET) {
 app.use(cors({
   origin: [
     'https://agentic-ai-orcin-five.vercel.app',
+    'https://agentic-g9qqm59lr-67606-8232s-projects.vercel.app',
     'http://localhost:5173',
     'http://localhost:3000'
   ],
